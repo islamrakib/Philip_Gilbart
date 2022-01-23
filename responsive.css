@@ -1,0 +1,107 @@
+@media all and (max-width:1400px){}
+@media all and (max-width:1200px){}
+@media all and (max-width:1024px){}
+@media all and (max-width:992px){
+    .banner-img img {
+        display: none;
+    }
+    .banner-section {
+        background-image: url(./img/hero-img.jpg);
+        background-size: 40%;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-blend-mode: multiply;
+        padding: 30px 0;
+        position: relative;
+        z-index: 1;
+    }
+    .banner-section::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: #b0b0eea8;
+        z-index: -1;
+    }
+    .banner-text {
+        margin-top: 0;
+    }
+    .about-img img {
+        width: 100%;
+    }
+    .banner-text h5 {
+        margin-bottom: 5px;
+    }
+    .banner-text h1 {
+        font-size: 27px;
+        margin-bottom: 5px;
+    }
+    .banner-text .btn {
+        margin-top: 0px;
+    }
+    .card_text {
+        padding-top: 65px;
+        text-align: left !important;
+        margin-left: 45%;
+    }
+    .contact_text {
+        margin-top: 24px;
+        margin-left: 0;
+        text-align: center;
+    }
+    .card_top_imgg img {
+        width: 34%;
+        top: 7px;
+        left: 10px;
+    }
+}
+@media all and (max-width:768px){
+    .banner-section {
+        background-size: 90%;
+    }
+    .about-img img {
+        margin-bottom: 20px;
+    }
+    .card_text {
+        padding-top: 0;
+    }
+    .card_top_imgg img {
+        top: 19px;
+        left: 20px;
+    }
+    .card_top_imgg img {
+        top: 23px;
+        left: 14px;
+        width: 39%;
+    }
+    .team_section {
+        padding: 20px 0;
+    }
+    .prisign_section {
+        padding: 20px 0;
+    }
+    .card_top_imgg img {
+        top: 5px;
+    }
+
+}
+@media all and (max-width:576px){
+    .card_top_imgg img {
+        top: 24px;
+    }
+}
+@media all and (max-width:400px){
+    .card_text {
+        margin-left: 0;
+        margin-top: 11px;
+    }
+    .card_top_imgg img {
+        width: 100%;
+        position: inherit;
+    }
+    .contact_section {
+        padding: 21px 0;
+    }
+}

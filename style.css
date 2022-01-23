@@ -1,0 +1,172 @@
+.header-menu span i {
+	font-size: 31px;
+	background: -webkit-linear-gradient(#638aff, #80c2ff);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-right: 15px;
+}
+.header-menu span h2 {
+	display: inline-block;
+	color: #000;
+	font-size: 24px;
+	font-weight: 600;
+}
+/* banner-section */
+.banner-section{
+    padding: 70px 0 0 0;
+    background: #f9f9ff;
+}
+.banner-text {
+	margin-top: 86px;
+}
+.banner-text h5 {
+	font-size: 20px;
+	font-weight: 500;
+	color: #404040;
+	margin-bottom: 15px;
+}
+.banner-text h1 {
+	font-size: 35px;
+	font-weight: 600;
+	margin-bottom: 25px;
+}
+.banner-text p{}
+.banner-text .btn {
+	background: #8490ff;
+	border-color: #8490ff;
+	font-weight: 700;
+	margin-top: 25px;
+}
+
+.banner-img img {
+	width: 75%;
+}
+/* about_section */
+.about_section{
+	padding: 70px 0;
+}
+.about-img img{
+	width: 85%;
+}
+.about-text{
+	margin-top: 0;
+}
+/* counter_section */
+
+.counter_section{
+	padding: 70px 0;
+	background: #8490ff;
+}
+.count-number h2{
+	font-weight: 600;
+}
+/* prisign_section */
+.prisign_section{
+	padding: 80px 0;
+}
+.prising_head{
+	margin-bottom: 30px;
+}
+.prising_head h3 {
+	font-size: 40px;
+}
+.prising_head p{
+	font-size: 16px;
+}
+
+.prising_card{
+	background: #fff;
+	padding: 20px 30px;
+	box-shadow: 0 0 20px rgba(108, 196, 255, 0.2);
+}
+.prising_card h2 {
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	background: #f9f9ff;
+	line-height: 100px;
+	text-align: center;
+	border-radius: 50%;
+}
+.prising_card h5{}
+.prising_card h6 {
+	margin-bottom: 35px;
+	font-size: 18px;
+}
+.prising_card p {
+	font-size: 22px;
+	color: #4f4f4f;
+	line-height: 60px;
+}
+.prising_card .btn {
+	color: #6087e5;
+	border-color: #6087e5;
+	font-weight: 600;
+}
+.prising_card .btn:hover{
+	background: #6087e5;
+	color: #fff;
+}
+/* team_section */
+.team_section{
+	padding: 80px 0;
+}
+.team_card {
+	padding: 20px 40px;
+	position: relative;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+.card_top_imgg img {
+	width: 40%;
+	position: absolute;
+	top: -25px;
+	left: 10px;
+}
+.card_text {
+	padding-top: 65px;
+}
+.card_text h4 {
+	margin: 0;
+	font-size: 22px;
+	font-weight: 500;
+}
+.card_text small {
+	font-size: 14px;
+}
+.card_text p {
+	font-size: 16px;
+	margin-top: 20px;
+}
+.card_text .btn{
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+/* contact_section */
+.contact_section{
+	padding: 80px 0;
+	background: #f9f9ff;
+}
+.contact_form {
+	padding: 51px;
+	background: #fff;
+	border-radius: 7px;
+}
+.contact_form .btn {
+	background: #17a2b8;
+	border-color: #17a2b8;
+	color: #fff;
+	font-weight: 600;
+}
+
+.contact_text {
+	margin-top: 60px;
+	margin-left: 30px;
+}
+.contact_text h4{}
+.contact_text p{}
+
+/* footer */
+
+.footer{
+	background: #04091e;
+	padding: 25px 0;
+}
